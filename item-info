@@ -1,20 +1,22 @@
 <div style="height:600px; width: 900px; margin: auto;">
+	<br>
+	<!-- BG IMAGE -->
+	<div class="bg-image" style="background-image: url('https://cdn.discordapp.com/attachments/749962152143618069/968735667972636672/item_template_smol.png'); background-repeat: no-repeat; height:100%; width:100%;">
+		<!-- END BG IMAGE -->
+		<div class="card-body" style="text-color:f7f6d6; font-family: Georgia, serif;">
+
+			<h5 class="card-title p-4" style="text-align: center; font-size: 36px;"><em><span style="color: rgb(247, 246, 214); font-size: 36px;">Burning Cherry</span></em></h5>
+			<div class="row no-gutters">
+				<div class="col-sm p-5">
+					<!-- DESC -->
+
+					<p class="card-text p-4 p-l-xl" style="font-size:24px;"><em><span style="color: rgb(247, 246, 214); font-size: 30px;">Description</span><br><span style="color: rgb(253, 252, 192);">The snow drifts in the air and the cherry blossoms fall, washing away my hatred. A hair ornament made in the park while admiring cherry blossoms.</span></em></p>
+				</div>
+				<!-- END DESC -->
+				<div class="col-sm p-5" style="text-align:center;"><img src="https://static.wikia.nocookie.net/id5/images/d/df/BurningCherry.png" class="fr-fic fr-dii" width="200" height="220"></div>
+			</div>
+		</div>
+	</div>
+</div>
 <br>
-<div class="bg-image card shadow-1-strong" style="background-image: url('
-https://cdn.discordapp.com/attachments/749962152143618069/968735667972636672/item_template_smol.png
-'); background-repeat: no-repeat; height:100%; width:100%;">
-<div class="card-body" style="text-color:f7f6d6; font-family: Georgia, serif;">
-
-<h5 class="card-title p-4" style="text-align: center; font-size: 36px;"><em><span style="color: rgb(247, 246, 214); font-size: 36px;">Burning Cherry</span></em></h5>
-<div class="row no-gutters">
-<div class="col-sm p-5">
-
-<p class="card-text p-4 p-l-xl" style="font-size:24px;"><em><span style="color: rgb(247, 246, 214); font-size: 30px;">Description</span><br><span style="color: rgb(253, 252, 192);">The snow drifts in the air and the cherry blossoms fall, washing away my hatred. A hair ornament made in the park while admiring cherry blossoms.</span></em></p>
-</div>
-<div class="col-sm p-5" style="text-align:center;"><img src="
-https://static.wikia.nocookie.net/id5/images/d/df/BurningCherry.png
-" class="fr-fic fr-dii" width="200" height="220"></div>
-</div>
-</div>
-</div>
-</div>
+<br>
