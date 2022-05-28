@@ -1,0 +1,1424 @@
+<!--
+ * This is the newer wiki version! For the older (2017-2019) one, see https://toyhou.se/10433743.-layout-identity-v! 
+ * I replicated this code while also referencing other wiki codes (see "wiki" tag on toyhou.se searches) to maintain similarity, so please do keep that in mind!
+ * Please don't remove credit!
+ * Table of Contents code is by MiriamP!! The rest, I figured out myself~
+
+Other notes when editing:
+ * If you're using visual editor, be sure to click back to the Overview page before submitting - the page you're on when submitting will be the page shown on the profile!
+ * This code is more suited for dark mode users! In light mode, the tabbers and blockquotes will burn your eyes...
+ * This code's really long, so some parts might be messy! Editing in visual editor and not code editor won't mess anything up, though!
+-->
+<div class="background" style="background: url('https://static.wikia.nocookie.net/id5/images/0/08/Site-background-dark/'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; overflow: auto; font-family: verdana, sans-serif;">
+	<div class="mt-0" style="background-color: rgba(33, 34, 42, 0.8); border: none; padding: 20px 20px 20px 20px; text-align: left; background-repeat: repeat; margin: 100px 10% 0px 10%; color: #e6e6e6; font-size: 13px; overflow: auto;">
+		<!-- PAGE NAVIGATION -->
+
+		<h1 style="font-size: 36px; font-weight:100; color: #e6e6e6;">Page Name</h1>
+		<br>
+		<!-- Note: Default link color is #d2c6a7, link color on hover is #f4f1ea (with underline) - I cannot use these, however, as I do not have premium or access to CSS -->
+
+		<ul class="nav nav-tabs nav-fill">
+			<li class="nav-item"><a class="nav-link show active" data-toggle="pill" href="#OVERVIEW" style="color: #d2c6a7;">Overview</a></li>
+			<li class="nav-item"><a class="nav-link show" data-toggle="pill" href="#LORE" style="color: #d2c6a7;">Lore</a></li>
+			<li class="nav-item"><a class="nav-link show" data-toggle="pill" href="#COSMETICS" style="color: #d2c6a7;">Cosmetics</a></li>
+			<li class="nav-item"><a class="nav-link show" data-toggle="pill" href="#GALLERY" style="color: #d2c6a7;">Gallery</a></li>
+		</ul>
+		<div class="tab-content">
+			<!-- OVERVIEW PAGE START -->
+			<div class="tab-pane fade pb-3 active show" id="OVERVIEW">
+				<!-- RUMOR -->
+				<br>
+				<br>
+				<div class="card p-1 font-italic" style="color: #2a2b32; font-size: 18px; color: #e6e6e6; text-align: center; margin-left: auto; margin-right: auto; border: none;">
+
+					<blockquote class="blockquote">
+
+						<p class="mb-0">All fear springs from the unknown.</p>
+					</blockquote>
+				</div>
+				<!-- INFOBOX -->
+				<br>
+
+				<table style="border-collapse: collapse; border: none; color: #e6e6e6; width: 300px; float: right; margin: 0px 0px 10px 10px; font-size:10px; background-color: #2b2d37; border-radius: 10px; padding: 10px;">
+					<tbody>
+						<tr>
+							<td style="background-color: #baaea2;">
+
+								<p class="text-center font-weight-bold" style="color: black; font-size: 13.5px;">Character Profession</p>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="https://static.wikia.nocookie.net/id5/images/f/fe/Gardener_art.png" class="fr-fic fr-dib" width="200" height="671">
+
+								<dl class="row">
+									<dt class="col-sm-3">Name</dt>
+									<dd class="col-sm-9">Character Name</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Aliases</dt>
+									<dd class="col-sm-9">Character Aliases</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Career</dt>
+									<dd class="col-sm-9">Character Career</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Gender</dt>
+									<dd class="col-sm-9">Character Gender</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Nationality</dt>
+									<dd class="col-sm-9">Character Nationality</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: #baaea2;">
+
+								<p class="text-center font-weight-bold" style="color: black; font-size: 13.5px;">Character Details</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Birthday</dt>
+									<dd class="col-sm-9">Character Birthday</dd>
+								</dl>
+							</td>
+						</tr>
+						<!-- DELETE THE CHARACTER DAY ROW IS OC IS NOT HUNTER -->
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Character Day</dt>
+									<dd class="col-sm-9">Hunter Character Day</dd>
+								</dl>
+							</td>
+						</tr>
+						<!-- END CHARACTER DAY -->
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Age</dt>
+									<dd class="col-sm-9">Character Age</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Likes</dt>
+									<dd class="col-sm-9">Character Likes</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Dislikes</dt>
+									<dd class="col-sm-9">Character Dislikes</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: #baaea2;">
+
+								<p class="text-center font-weight-bold" style="color: black; font-size: 13.5px;">Gameplay Information</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Faction</dt>
+									<dd class="col-sm-9">Hunter/Survivor/Other (delete two)</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Role</dt>
+									<dd class="col-sm-9">Contain/Support/Decode/Rescue</dd>
+									<dd class="col-sm-9">Camp/Chase/Map Control (select two)</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">External Traits</dt>
+									<dd class="col-sm-9">Trait 1 | Trait 2 | Trait 3</dd>
+								</dl>
+							</td>
+						</tr>
+						<!-- DELETE THE ABILITIES ROW IF OC IS NOT HUNTER -->
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Abilities</dt>
+									<dd class="col-sm-9">Ability 1 | Ability 2 | Ability 3</dd>
+								</dl>
+							</td>
+						</tr>
+						<!-- END ABILITIES -->
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Difficulty</dt>
+									<dd class="col-sm-9">1/1.5/2/2.5/3 (select one)</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Tool/Weapon</dt>
+									<dd class="col-sm-9">Character Item</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: #baaea2;">
+
+								<p class="text-center font-weight-bold" style="color: black; font-size: 13.5px;">Obtaining</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Release Date (Global)</dt>
+									<dd class="col-sm-9">Character Release Date</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Obtained by</dt>
+									<dd class="col-sm-9">Character obtainment</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Cost</dt>
+									<dd class="col-sm-9">Character Price</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td style="background-color: #baaea2;">
+
+								<p class="text-center font-weight-bold" style="color: black; font-size: 13.5px;">Media</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+
+								<dl class="row">
+									<dt class="col-sm-3">Original Creator</dt>
+									<dd class="col-sm-9">@/Designer&#39;s username here!</dd>
+								</dl>
+							</td>
+						</tr>
+						<tr>
+							<td>Voice Actors</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- INTRO -->
+				<div><strong>[Character Name]</strong>, also known as the <strong>[Character Profession]</strong>, is a [Role]-Type and Difficulty [Level] [Faction] available for purchase after completion of the prologue. [Pronoun] is one of the <strong>[Factionamt]</strong> playable [Faction] added to Identity V.</div>
+				<br>
+				<!-- TABLE OF CONTENTS-->
+				<div class="row rounded mb-3">
+					<div class="card rounded-0" style="background: transparent; border: 1px solid #AAA; margin-left: 10px; font-size:13px;">
+
+						<h6 class="p-2 mb-0" style="font-size:17px;">Contents <sup>[<a class="collapsed" data-toggle="collapse" href="#tocshow" style="color:#d2c6a7;">show</a>]</sup></h6>
+						<div class="p-2 pt-0 rounded collapse" id="tocshow" style="color: rgb(90, 91, 99);">1 <a href="#Appearance" style="color:#d2c6a7;">Appearance</a>
+							<br>2 <a href="#Gameplay" style="color:#d2c6a7;">Gameplay</a>
+							<br><span class="pl-3">2.1 <a href="#Traits" style="color: #d2c6a7;">External Traits</a></span>
+							<!-- Keep Abilities section only if OC is hunter-->
+							<br><span class="pl-3">2.2 <a href="#Abilities" style="color:#d2c6a7;">Abilities</a></span>
+							<!-- End Abilities -->
+							<br><span class="pl-3">2.3 <a href="#Tips" style="color: #d2c6a7;">Tips</a></span>
+							<br><span class="pl-3">2.4 <a href="#Statistics" style="color: #d2c6a7;">Character Statistics</a></span>
+							<!-- Please delete ones that don't apply to your character! Only the first and last apply to both factions-->
+							<br><span class="pl-4">2.4.1 <a href="#Movement" style="color: #d2c6a7;">Movements</a></span>
+							<br><span class="pl-4">2.4.2 <a href="#Interaction" style="color: #d2c6a7;">Interaction</a></span>
+							<br><span class="pl-4">2.4.3 <a href="#Decoding" style="color: #d2c6a7;">Decoding</a></span>
+							<br><span class="pl-4">2.4.4 <a href="#Healing" style="color: #d2c6a7;">Healing</a></span>
+							<br><span class="pl-4">2.4.5 <a href="#Normal" style="color: #d2c6a7;">Normal Attack</a></span>
+							<br><span class="pl-4">2.4.6 <a href="#Charged" style="color: #d2c6a7;">Charged Attack</a></span>
+							<br><span class="pl-4">2.4.7 <a href="#Ballooning" style="color: #d2c6a7;">Ballooning Survivors</a></span>
+							<br><span class="pl-4">2.4.8 <a href="#Others" style="color: #d2c6a7;">Others</a></span>
+							<br>3 <a href="#Design" style="color:#d2c6a7;">Character Design</a>
+							<br>4 <a href="#Trivia" style="color:#d2c6a7;">Trivia</a>
+							<br>5 <a href="#References" style="color:#d2c6a7;">References</a></div>
+					</div>
+					<br>
+				</div>
+				<!-- APPEARANCE -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Appearance">
+
+						<h2>Appearance</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+
+				<p>What you see with your own two eyes</p>
+
+				<p>May not be the truth, either.</p>
+				<!-- GAMEPLAY -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Gameplay">
+
+						<h2>Gameplay</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat convallis ligula, sed laoreet urna dignissim quis. Vivamus consectetur lorem eu volutpat suscipit. Pellentesque egestas mauris neque, vel feugiat dui laoreet sed. Suspendisse at tortor fermentum, viverra mi in, finibus dolor. Praesent blandit venenatis fringilla. Nam tincidunt dui a lectus commodo malesuada. Aliquam erat volutpat. Fusce sodales dui sed odio tristique imperdiet. Aliquam blandit neque lobortis, ullamcorper odio id, euismod lectus. Praesent erat felis, tristique id turpis quis, dignissim venenatis arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+				<br>
+				<!-- EXTERNAL TRAITS -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Traits">
+
+						<h4>External Traits</h4>
+					</a>
+				</div>
+				<br>
+				<div class="container">
+					<div class="row no-gutters">
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978233311115743272/EXTRAIT.png" class="fr-fic fr-dii" width="100" height="100"></div>
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978233311115743272/EXTRAIT.png" class="fr-fic fr-dii" width="100" height="100"></div>
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978233311115743272/EXTRAIT.png" class="fr-fic fr-dii" width="100" height="100"></div>
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978233311115743272/EXTRAIT.png" class="fr-fic fr-dii" width="100" height="100"></div>
+					</div>
+				</div>
+				<br>
+				<!-- ABILITIES -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Abilities">
+
+						<h4>Abilities</h4>
+					</a>
+				</div>
+				<br>
+				<div class="container">
+					<div class="row no-gutters">
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978238829376962560/HABILITY.png" class="fr-fic fr-dii" width="100" height="93.175"></div>
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978238829376962560/HABILITY.png" class="fr-fic fr-dii" width="100" height="93.175"></div>
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978238829376962560/HABILITY.png" class="fr-fic fr-dii" width="100" height="93.175"></div>
+						<div class="col-sm"><img src="https://cdn.discordapp.com/attachments/749962152143618069/978238829376962560/HABILITY.png" class="fr-fic fr-dii" width="100" height="93.175"></div>
+					</div>
+				</div>
+				<br>
+				<!-- STATISTICS -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Statistics">
+
+						<h2>Statistics</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+
+					<p class="font-weight-bold">Press &quot;Expand&quot; to show the character&#39;s statistics.</p>
+				</div>
+				<br>
+
+				<p class="collapsed" data-target="#stats" data-toggle="collapse" style="text-align: right;">[<a class="collapsed" data-toggle="collapse" href="#stats" style="color:#d2c6a7;">Expand</a>]</p>
+				<div class="collapse" id="stats">
+
+					<p>
+						<br>
+					</p>
+
+					<h4 href="#Movements">Movements</h4>
+
+					<ul>
+						<li>Running Speed: 3.8 m/s</li>
+						<li>Walking Speed: 2.11 m/s</li>
+						<li>Crouch Walking Speed: 1.14 m/s</li>
+						<li>Crawling Speed: 0.32 m/s</li>
+					</ul>
+
+					<h4 href="#Decoding">Decoding</h4>
+
+					<ul>
+						<li>Duration of decoding Cipher Machines: 81.0 sec</li>
+						<li>Regressed decoding progress from electric shock: 1.0%</li>
+						<li>Duration of inability to decode from electric shock: 2.0 sec</li>
+						<li>Time spent opening Exit Gate: 18.0 sec</li>
+					</ul>
+
+					<h4 href="#Interactions">Interactions</h4>
+
+					<ul>
+						<li>Time spent dropping pallets: 0.73 sec</li>
+						<li>Time spent vaulting over pallets at high speed: 1.17 sec</li>
+						<li>Time spent vaulting over pallets at medium speed: 1.67 sec</li>
+						<li>Time spent vaulting over pallets at low speed: 2.07 sec</li>
+						<li>Time spent vaulting over windows at high speed: 0.87 sec</li>
+						<li>Time spent vaulting over windows at low speed: 1.27 sec</li>
+						<li>Time spent going through chests: 10.0 sec</li>
+					</ul>
+
+					<h4 href="Healing">Healing</h4>
+
+					<ul>
+						<li>Time spent healing injured Survivors: 15.0 sec</li>
+						<li>Time spent being healed by others: 15.0 sec</li>
+						<li>Self-healing time after knockdown: 30.0 sec</li>
+					</ul>
+
+					<h4 href="Normal">Normal attack:</h4>
+
+					<ul>
+						<li>Launching action for normal attack: 0.6 sec</li>
+						<li>Effective range of normal attack: 3.46 m</li>
+						<li>Duration of recovery action from missed normal attacks: 0.58 sec</li>
+						<li>Duration of recovery action from normal attack hits: 2.58 sec</li>
+					</ul>
+
+					<h4 href="Charged">Charged attack:</h4>
+
+					<ul>
+						<li>Launching action for charged attack: 0.98 sec</li>
+						<li>Effective range of charged attack: 3.63 m</li>
+						<li>Duration of recovery action from missed charged attacks: 0.78 sec</li>
+						<li>Duration of recovery action from charged attack hits: 2.78 sec</li>
+					</ul>
+
+					<h4 href="Ballooning">Ballooning:</h4>
+
+					<ul>
+						<li>Duration of ballooning: 1.8 sec</li>
+						<li>Duration of being stunned after Survivors escaped: 5.92 sec</li>
+						<li>Launching action for ballooning: 0.59 sec</li>
+						<li>Effective range of ballooning: 2.78 m</li>
+					</ul>
+
+					<h4 href="Others">Others</h4>
+
+					<ul>
+						<li>Duration of footprint: 4.0 sec</li>
+						<li>Duration of speed boost after being hit: 2.0 sec</li>
+						<li>Duration of struggle while being held up: 16.0 sec</li>
+						<li>Rocket Chair countdown time: 60 sec</li>
+						<li>Time spent being rescued from Rocket Chairs: 1.0 sec</li>
+						<li>Fear radius: 32.07 m</li>
+						<li>Duration of recovery action from hitting scene objects: 1.33 sec</li>
+					</ul>
+				</div>
+				<br>
+				<!-- CHARACTER DESIGN -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Design">
+
+						<h2>Design</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+
+					<p>Tap before the Trivia section and press enter to expand this section! Your design notes as the character&#39;s creator go here!</p>
+				</div>
+				<br>
+				<br>
+				<!-- TRIVIA -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<br>
+				</div>
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<br>
+				</div>
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Trivia">
+
+						<h2>Trivia</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+
+				<ul style="list-style-type: disc;">
+					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</li>
+					<li>Curabitur volutpat convallis ligula, sed laoreet urna dignissim quis.&nbsp;</li>
+					<li>Vivamus consectetur lorem eu volutpat suscipit.&nbsp;
+
+						<ul>
+							<li>Pellentesque egestas mauris neque, vel feugiat dui laoreet sed.&nbsp;</li>
+						</ul>
+					</li>
+					<li>Suspendisse at tortor fermentum, viverra mi in, finibus dolor.&nbsp;</li>
+					<li>Praesent blandit venenatis fringilla. Nam tincidunt dui a lectus commodo malesuada.&nbsp;</li>
+				</ul>
+				<br>
+			</div>
+			<!-- OVERVIEW PAGE END -->
+			<!-- LORE PAGE START -->
+			<div class="tab-pane fade pb-3" id="LORE">
+				<!-- RUMOR -->
+				<br>
+				<br>
+				<div class="card p-1 font-italic" style="color: #2a2b32; font-size: 18px; color: #e6e6e6; text-align: center; margin-left: auto; margin-right: auto; border: none;">
+
+					<blockquote class="blockquote">
+
+						<p class="mb-0">If this game were a stage, if every chase was a play - then, these are just the participants&#39; masks in a masquerade, their different roles&#39; costumes.&nbsp;</p>
+						<footer class="blockquote-footer">Description from the Official Website</footer>
+					</blockquote>
+				</div>
+				<br>
+				<br>
+				<!-- INTRO -->
+				<span style="font-size: 12px; color:#e6e6e6;">This page is a compilation of story content and Lore for the [FACTION] <strong>[character name]</strong>, also known as the <strong>[character profession]</strong>. This character is one of the <strong>[factionamt]</strong> playable [FACTION] added to Identity V.</span>
+				<br>
+				<br>
+				<!-- TABLE OF CONTENTS-->
+				<div class="row rounded mb-3">
+					<div class="card rounded-0" style="background: transparent; border: 1px solid #AAA; margin-left: 10px; font-size:13px;">
+
+						<h6 class="p-2 mb-0" style="font-size:17px;">Contents <sup>[<a class="collapsed" data-toggle="collapse" href="#toc2show" style="color:#d2c6a7;">show</a>]</sup></h6>
+						<div class="p-2 pt-0 rounded collapse" id="toc2show" style="color: rgb(90, 91, 99);">1 <a href="#Personality" style="color:#d2c6a7;">Traits and Personality</a>
+							<br><span class="pl-3">1.1 <a href="#Quiz" style="color: #d2c6a7;">Personality Quiz Results</a></span>
+							<br><span class="pl-3">1.2 <a href="#CDQuestions" style="color: #d2c6a7;">Character Day Questions</a></span>
+							<br><span class="pl-3">1.3 <a href="#Quotes" style="color: #d2c6a7;">Quotations</a></span>
+							<br>2 <a href="#Deductions" style="color:#d2c6a7;">Deduction Quests</a>
+							<br>3 <a href="#Resources" style="color:#d2c6a7;">Character Resources</a>
+							<br>4 <a href="#Relations" style="color:#d2c6a7;">Character Relations</a>
+							<br>5 <a href="#Game" style="color:#d2c6a7;">Canon Manor Game</a>
+							<br>6 <a href="#Compiled" style="color:#d2c6a7;">Compiled Overview</a>
+							<br><span class="pl-3">6.1 <a href="#BGQuests" style="color: #d2c6a7;">Backstory from Deduction Quests</a></span>
+							<br><span class="pl-3">6.2 <a href="#AltTheory" style="color:#d2c6a7;">Alternate Theories and Conclusions</a></span></div>
+					</div>
+				</div>
+				<br>
+				<!-- TRAITS AND PERSONALITY -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Personality">
+
+						<h2>Traits and Personality</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+				<div class="profile-fields-subtitle font-weight-bold" id="Quiz" style="margin-bottom:-5px;">
+
+					<h4>Personality Quiz</h4>
+				</div>
+
+				<p>A lone rose blooms</p>
+
+				<p>In tranquil snow</p>
+				<div class="profile-fields-subtitle font-weight-bold" id="Quotes" style="margin-bottom:-5px;">
+
+					<h4>Quotations</h4>
+				</div>
+
+				<p>20XX Birthday Questions:</p>
+
+				<ul style="list-style-type: disc;">
+					<li>Question here</li>
+					<li>Question here</li>
+					<li>Question here</li>
+				</ul>
+
+				<p>Deduction Star 20XX Quotes:</p>
+
+				<ul style="list-style-type: disc;">
+					<li>Quote here</li>
+					<li>Quote here</li>
+					<li>Quote here</li>
+				</ul>
+				<!-- DEDUCTIONS -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Deductions">
+
+						<h2>Deduction Quests</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div><em>All completed Objectives reward the player with +335 Logic points for the <a href="https://id5.fandom.com/wiki/Logic_Path" style="color:#d2c6a7;" title="Logic Path">Logic Path</a>. After the character&#39;s deductions are completed, their <a href="https://id5.fandom.com/wiki/Worn_Clothes" style="color:#d2c6a7;" title="Worn Clothes">Worn Clothes</a> will be available.</em>
+				<br>
+
+				<h6 class="p-2 mb-0 text-center text-weight-bold">Please press &quot;Expand&quot; to see the deduction path <sup>[<a class="collapsed" data-toggle="collapse" href="#deductionsshow" style="color:#d2c6a7;">show</a>]</sup></h6>
+				<div class="p-2 pt-0 rounded collapse" id="deductionsshow">
+
+					<table style="width: 100%;">
+						<tbody>
+							<tr>
+								<td style="width: 49.9419%; background-color: rgb(17, 17, 17);"><strong>Deduction</strong></td>
+								<td style="width: 49.9542%; background-color: rgb(17, 17, 17);"><strong>Conclusion</strong></td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">1. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">2. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">3. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">4. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">5. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">6. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">7. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">8. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">9. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+							<tr>
+								<td style="width: 49.9419%;">10. <strong>Name</strong> - <em>Description</em>
+
+									<ul>
+										<li>Basic Objective: Objective</li>
+										<li>Advance Objective 1: Objective</li>
+										<li>Advance Objective 2: Objective</li>
+									</ul>
+								</td>
+								<td style="width: 49.9542%;">Conclusion</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- CHARACTER RESOURCES -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Resources">
+
+						<h2>Character Resources</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+				<div class="profile-fields-subtitle font-weight-bold" id="Resources" style="margin-bottom:-5px;">
+
+					<h4>Character Introduction</h4>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4>Letters</h4>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<!-- CHARACTER RELATIONS -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<br>
+				</div>
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Relations">
+
+						<h2>Character Relations</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>The Character Relations menu shows how certain characters are connected and how they feel about each other. It also contains other personal information on characters that cannot be found anywhere else. It can be found in the Notebook, under the &quot;Clues&quot; tab.
+				<!-- CANON MANOR GAME -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<br>
+				</div>
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Game">
+
+						<h2>Canon Manor Game</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+
+				<p>We can gather who was in a canon Manor Game together by information in Letters and Diaries, and very occasionally from character quotes during events. For more information on the game the character participated in, please see the character&#39;s Diaries.</p>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="width: 20%; background-color: rgb(48, 49, 57);">Serial #</td>
+							<td style="width: 20%; background-color: rgb(48, 49, 57);">Hunter Identities</td>
+							<td style="width: 20%; background-color: rgb(48, 49, 57);">Survivor Identities</td>
+							<td style="width: 19.9838%; background-color: rgb(48, 49, 57);">Hunting Results</td>
+							<td style="width: 19.9833%; background-color: rgb(48, 49, 57);">Survival Results</td>
+						</tr>
+						<tr>
+							<td>SERIAL1</td>
+							<td>
+								<br>
+							</td>
+							<td>Survivor</td>
+							<td style="width: 19.9838%;">Unknown</td>
+							<td style="width: 19.9833%;">Eliminated</td>
+						</tr>
+						<tr>
+							<td>SERIAL2</td>
+							<td>
+								<br>
+							</td>
+							<td>Survivor</td>
+							<td style="width: 19.9838%;">Unknown</td>
+							<td style="width: 19.9833%;">Survived</td>
+						</tr>
+						<tr>
+							<td>SERIAL3</td>
+							<td>
+								<br>
+							</td>
+							<td>Survivor</td>
+							<td style="width: 19.9838%;">Unknown</td>
+							<td style="width: 19.9833%;">Sabotaged</td>
+						</tr>
+						<tr>
+							<td>SERIAL4</td>
+							<td>
+								<br>
+							</td>
+							<td>Survivor</td>
+							<td style="width: 19.9838%;">Unknown</td>
+							<td style="width: 19.9833%;">Gone missing</td>
+						</tr>
+						<tr>
+							<td>SERIAL5</td>
+							<td>Hunter</td>
+							<td>
+								<br>
+							</td>
+							<td style="width: 19.9838%;">Unknown</td>
+							<td style="width: 19.9833%;">Unknown</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- OVERVIEW -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<br>
+				</div>
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Compiled">
+
+						<h2>Compiled Overview</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+				</div>
+				<div class="profile-fields-subtitle font-weight-bold" id="BGQuests" style="margin-bottom:-5px;">
+
+					<h4>Background From Deductions</h4>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<div class="profile-fields-subtitle font-weight-bold" id="AltTheory" style="margin-bottom:-5px;">
+
+					<h4>Alternate Theories and Conclusions</h4>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				<br>
+			</div>
+			<!-- LORE PAGE END -->
+			<!-- COSMETICS PAGE START -->
+			<div class="tab-pane fade pb-3" id="COSMETICS">
+				<br>
+				<!-- TABLE OF CONTENTS-->
+				<div class="row rounded mb-3">
+					<div class="card rounded-0" style="background: transparent; border: 1px solid #AAA; margin-left: 10px; font-size:13px;">
+
+						<h6 class="p-2 mb-0" style="font-size:17px;">Contents <sup>[<a class="collapsed" data-toggle="collapse" href="#toc3show" style="color:#d2c6a7;">show</a>]</sup></h6>
+						<div class="p-2 pt-0 rounded collapse" id="toc3show" style="color: rgb(90, 91, 99);">1 <a href="#Appearance" style="color:#d2c6a7;">Appearance</a>
+							<br>1 <a href="#AD" style="color:#d2c6a7;">Appearance Decoration</a>
+							<br><span class="pl-3">1.1 <a href="#Costumes" style="color: #d2c6a7;">Costumes</a></span>
+							<br><span class="pl-3">1.2 <a href="#Accessories" style="color:#d2c6a7;">Accessories</a></span>
+							<br><span class="pl-3">1.3 <a href="#Pets" style="color: #d2c6a7;">Pets</a></span>
+							<br>2 <a href="#Behavior" style="color:#d2c6a7;">Behavior</a>
+							<br><span class="pl-3">1.3 <a href="#Graffiti" style="color: #d2c6a7;">Graffiti</a></span>
+							<br><span class="pl-3">1.3 <a href="#Emotes" style="color: #d2c6a7;">Emotes</a></span>
+							<br><span class="pl-3">1.3 <a href="#Standby%20Motions" style="color: #d2c6a7;">Standby Motions</a></span></div>
+					</div>
+				</div>
+				<br>
+				<!-- APPEARANCE DECORATION -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="AD">
+
+						<h2>Appearance Decoration</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+					<br>
+				</div>
+				<br>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="#Costumes">
+
+						<h3>Costumes</h3>
+					</a>
+				</div>
+				<!-- S TIER -->
+				<br>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">S-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525533_SVh4yn5oRb6iK6A.png" class="fr-fic fr-dii" width="82.6625" height="122.688"></td>
+							<td style="width: 19.9959%;">Name(Initial Release)</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence X</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525533_SVh4yn5oRb6iK6A.png" class="fr-fic fr-dii" width="82.6625" height="122.688"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Illusion Hall</td>
+							<td style="width: 19.9753%;">2888 Echoes/12888 Fragments</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- A TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">A-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525542_6dSSTBNxIBasEpJ.png" class="fr-fic fr-dii" width="82.6625" height="126.3"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence XMemory Sphere - Previous Seasons</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525542_6dSSTBNxIBasEpJ.png" class="fr-fic fr-dii" width="82.6625" height="126.3"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Illusion Hall</td>
+							<td style="width: 19.9753%;">4888 Fragments/ 1388 Echoes</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- B TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">B-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525556_GaQecj0noQ4E4da.png" class="fr-fic fr-dii" width="82.6625" height="127.75"></td>
+							<td style="width: 19.9959%;">Name(Initial Release)</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence X</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525556_GaQecj0noQ4E4da.png" class="fr-fic fr-dii" width="82.6625" height="127.75"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Illusion Hall</td>
+							<td style="width: 19.9753%;">318 Echoes1188 Fragments</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">C-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525588_HKkZ1sr4mwmXnQ2.png" class="fr-fic fr-dii" width="82.6625" height="120.725"></td>
+							<td style="width: 19.9959%;">Original</td>
+							<td style="width: 19.9802%;">The original costume. Everything seems so natural.</td>
+							<td style="width: 19.9909%;">Already equipped</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525588_HKkZ1sr4mwmXnQ2.png" class="fr-fic fr-dii" width="82.6625" height="120.725"></td>
+							<td style="width: 19.9959%;">Worn Clothes</td>
+							<td style="width: 19.9802%;">All the clothes are super tattered. Was it only a game they have been through?</td>
+							<td style="width: 19.9909%;">Final Deduction Quest reward</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525588_HKkZ1sr4mwmXnQ2.png" class="fr-fic fr-dii" width="82.6625" height="120.725"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence X</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525588_HKkZ1sr4mwmXnQ2.png" class="fr-fic fr-dii" width="82.6625" height="120.725"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Illusion Hall</td>
+							<td style="width: 19.9753%;">108 Echoes438 Fragments</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="#Accessories">
+
+						<h3>Accessories</h3>
+					</a>
+				</div>
+				<br>
+
+				<p>Non-exclusive accessories that can be worn by any hunter can be found here. The following only contains exclusive accessories.</p>
+				<br>
+				<!-- S TIER -->
+				<br>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">S-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525667_BW6zkoYlIeBgti2.png" class="fr-fic fr-dii" width="82.6625" height="82.6625"></td>
+							<td style="width: 19.9959%;">Name(Initial Release)</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Rank Essence (Formerly)Memory Sphere - Previous SeasonsIllusion Hall</td>
+							<td style="width: 19.9753%;">1888 Echoes8388 Fragments</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- A TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">A-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525706_8Uxf8Lr0gK4FdTK.png" class="fr-fic fr-dii" width="82.6625" height="84.5875"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Rank Essence (Formerly)Memory Sphere - Previous SeasonsIllusion Hall</td>
+							<td style="width: 19.9753%;">1068 Echoes3888 Fragments</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- B TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">B-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525729_E0pbxx7HPx5HlwK.png" class="fr-fic fr-dii" width="82.6625" height="84.5375"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Rank Essence (Formerly)Memory Sphere - Previous SeasonsIllusion Hall</td>
+							<td style="width: 19.9753%;">258 Echoes968 Fragments</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48525729_E0pbxx7HPx5HlwK.png" class="fr-fic fr-dii" width="82.6625" height="84.5375"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event Store</td>
+							<td style="width: 19.9753%;">80 Spy Glasses</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- BEHAVIOR -->
+				<div class="profile-fields-title font-weight-bold" style="margin-bottom:-5px;">
+					<a id="Behavior">
+
+						<h2>Behavior</h2>
+					</a>
+				</div>
+				<div class="card bg-faded mb-2 border-top-0" style="height:1px; border-bottom-color: #5a5b63;">
+					<br>
+					<br>
+				</div>
+				<br>
+				<!-- GRAFFITI -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="#Graffiti">
+
+						<h3>Graffiti</h3>
+					</a>
+				</div>
+				<br>
+
+				<p>Basic graffiti that can be used by any character can be found <a href="https://id5.fandom.com/wiki/Basic_Graffiti" style="color: #d2c6a7;">here</a>. The following only contains exclusive graffiti.</p>
+				<br>
+				<!-- B TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">B-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49833542_jl7HfSztUvNcLSN.png" class="fr-fic fr-dii" width="82.6625" height="78.5875"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49833542_jl7HfSztUvNcLSN.png" class="fr-fic fr-dii" width="82.6625" height="78.5875"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event Store</td>
+							<td style="width: 19.9753%;">80 Spy Glasses</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- C TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">C-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49833546_PxPUF9ZWLBn4cfM.png" class="fr-fic fr-dii" width="82.6625" height="82.6625"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49833546_PxPUF9ZWLBn4cfM.png" class="fr-fic fr-dii" width="82.6625" height="82.6625"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Logic Path</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- D TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">D-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49833570_BtYA0KQcQW4QJ9p.png" class="fr-fic fr-dii" width="82.6625" height="75.525"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49833570_BtYA0KQcQW4QJ9p.png" class="fr-fic fr-dii" width="82.6625" height="75.525"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Logic Path Step 208</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- EMOTES -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="#Emotes">
+
+						<h3>Emotes</h3>
+					</a>
+				</div>
+				<br>
+
+				<p>This table lists all Emotes with a unique animation obtainable for this character. Emotes that almost every character can use can also be found <a href="https://id5.fandom.com/wiki/Category:Emotes" style="color: #d2c6a7;">here</a>.</p>
+				<br>
+				<!-- B TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">B-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49834066_GTe4ZcFz5lygIvc.png" class="fr-fic fr-dii" width="82.6625" height="82.6625"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence XMemory Sphere - Previous Seasons</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49834066_GTe4ZcFz5lygIvc.png" class="fr-fic fr-dii" width="82.6625" height="82.6625"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- C TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">C-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49834071_5gz4NXzNVUQkJTP.png" class="fr-fic fr-dii" width="82.6625" height="85.1"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence X</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49834071_5gz4NXzNVUQkJTP.png" class="fr-fic fr-dii" width="82.6625" height="85.1"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Rank Essence</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<!-- D TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">D-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49834075_ryDGMFUgqbsnhTa.png" class="fr-fic fr-dii" width="82.6625" height="86.4125"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence X</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/49834075_ryDGMFUgqbsnhTa.png" class="fr-fic fr-dii" width="82.6625" height="86.4125"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Memory Sphere - Previous Seasons</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- EMOTES -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<br>
+				</div>
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+					<a id="#Emotes">
+
+						<h3>Standby Motions</h3>
+					</a>
+				</div>
+				<br>
+
+				<p>This table lists all Standby Motions obtainable for this character. Standby Motions that almost every character can use can also be found <a href="https://id5.fandom.com/wiki/Category:Standby_Motions" id="" style="color: #d2c6a7;">here</a>.</p>
+				<br>
+				<!-- B TIER -->
+				<div class="profile-fields-subtitle font-weight-bold" style="margin-bottom:-5px;">
+
+					<h4 class="text-center">B-Tier</h4>
+				</div>
+				<br>
+
+				<table style="width: 100%;">
+					<tbody>
+						<tr>
+							<td style="background-color: #303139;">Card</td>
+							<td style="background-color: #303139;">Name</td>
+							<td style="width: 19.9802%; background-color: #303139;">Description</td>
+							<td style="width: 19.9909%; background-color: #303139;">Obtained by</td>
+							<td style="background-color: #303139;">Cost</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://static.wikia.nocookie.net/id5/images/e/eb/Ready.png/" class="fr-fic fr-dii" width="82.6625" height="85.9625"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Season X Essence XMemory Sphere - Previous Seasons</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+						<tr>
+							<td style="width: 19.9737%;"><img src="https://static.wikia.nocookie.net/id5/images/2/2c/Visit.png/" class="fr-fic fr-dii" width="82.6625" height="82.2375"></td>
+							<td style="width: 19.9959%;">Name</td>
+							<td style="width: 19.9802%;">Description</td>
+							<td style="width: 19.9909%;">Event</td>
+							<td style="width: 19.9753%;">N/A</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+			</div>
+			<!-- COSMETICS PAGE END -->
+			<!-- GALLERY PAGE START -->
+			<div class="tab-pane fade pb-3" id="GALLERY">
+
+				<p class="text-italic">
+					<br>
+				</p>
+
+				<p class="text-italic">See <a href="#" id=""><em style="color: #d2c6a7;">Page Name/Gallery</em></a></p>
+
+				<p>
+					<br>
+				</p>
+			</div>
+			<!-- GALLERY PAGE END -->
+		</div>
+	</div>
+	<div class="text-center" style="color: #303139;">Main Code by <a href="#" style="color: #303139;">Auctioneer</a> &middot; Table of Contents Code by <a href="https://toyhou.se/MiriamP" style="color: #303139;">MiriamP</a> &middot; Based on <a href="https://id5.fandom.com/" style="color: #303139;">Identity V Fandom Wiki</a></div>
+</div>
