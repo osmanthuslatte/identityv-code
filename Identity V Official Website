@@ -3,8 +3,7 @@
  * Due to copyright issues, the Identity V official website font can't be used :(
  * If your character is a Survivor, change the headings to a nice blue (#4391c3)! If they're a Hunter, change it to a beautiful red (#b23a34)!
 -->
-
-<div class="container-fluid p-3" style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/72311760_jFw4f9FbntVyiX2.jpg); color: #869ba9;">
+<div class="container-fluid p-3" style='background-image: url("https://f2.toyhou.se/file/f2-toyhou-se/images/72311760_jFw4f9FbntVyiX2.jpg"); color: rgb(134, 155, 169);'>
 	<!-- IDENTITY V LOGO-->
 	<div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48529331_pe6f9lEgfa0Pfx1.png" class="fr-fic fr-dii" width="214" height="66"></div>
 	<!-- END IDENTITY V LOGO -->
@@ -53,4 +52,6 @@
 		</div>
 		<!-- END CHARACTER INFO -->
 	</div>
+	<!-- CREDIT -->
+	<div class="text-center mx-1" style="font-size: 10px;"><a href="https://toyhou.se/23962936.f2u-idv-official-website"><i class="fas fa-code tooltipster" style="color: #869ba9;" title="Code by Auctioneer"></i></a></div>
 </div>
