@@ -3,7 +3,7 @@
  * Due to copyright issues, the Identity V official website font can't be used :(
  * If your character is a Survivor, change the headings to a nice blue (#4391c3)! If they're a Hunter, change it to a beautiful red (#b23a34)!
 -->
-<div class="container-fluid p-3" style='background-image: url("https://f2.toyhou.se/file/f2-toyhou-se/images/72311760_jFw4f9FbntVyiX2.jpg"); color: rgb(134, 155, 169);'>
+<div class="container-fluid p-3" style='background-image: url("https://f2.toyhou.se/file/f2-toyhou-se/images/72313149_JS0GgYu9sd0JWO4.jpg"); color: rgb(134, 155, 169);'>
 	<!-- IDENTITY V LOGO-->
 	<div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48529331_pe6f9lEgfa0Pfx1.png" class="fr-fic fr-dii" width="214" height="66"></div>
 	<!-- END IDENTITY V LOGO -->
