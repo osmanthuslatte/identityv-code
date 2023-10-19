@@ -1,0 +1,56 @@
+<!--
+ * This code is based off of the Identity V official website (https://www.identityvgame.com/en/character/index.html)!  
+ * Due to copyright issues, the Identity V official website font can't be used :(
+ * If your character is a Survivor, change the headings to a nice blue (#4391c3)! If they're a Hunter, change it to a beautiful red (#b23a34)!
+-->
+
+<div class="container-fluid p-3" style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/72311760_jFw4f9FbntVyiX2.jpg); color: #869ba9;">
+	<!-- IDENTITY V LOGO-->
+	<div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/48529331_pe6f9lEgfa0Pfx1.png" class="fr-fic fr-dii" width="214" height="66"></div>
+	<!-- END IDENTITY V LOGO -->
+	<div class="row no-gutters">
+		<!-- CHARACTER IMAGE -->
+		<div class="col-md-5 justify-content-center">
+			<div class="position: relative;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/72311611_kdm1O1ETZ9324Ko.png?1697697746" class="fr-fic fr-dii" width="227" height="763"></div>
+		</div>
+		<!-- END CHARACTER IMAGE -->
+		<div class="col-md-5">
+			<!-- "CHARACTER" -->
+			<div class="tit"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/72313004_Ou9G6QQvTjr42Ar.png" alt="img" class="fr-fic fr-dii" width="304" height="64"></div>
+			<!--END "CHARACTER"-->
+			<!-- CHARACTER INFO -->
+
+			<h2 class="roleName">
+				<br>
+			</h2>
+
+			<h2 class="roleName"><span style="font-size: 48px;">Gardener</span></h2>
+
+			<h5 class="alias">Name: Emma Woods</h5>
+
+			<h5 class="career">
+				<br>
+			</h5>
+
+			<h4>BACKGROUND STORY</h4>
+			<div class="bgstory" style="overflow: hidden; outline: none;" tabindex="5000">
+
+				<p>Having found &quot;the one,&quot; Emma can finally focus on perfecting her gardening skills. Maybe dear Mr. Scarecrow still needs some new duds. Replace the rotten straw, throw on a new hat. Of course, appearance isn&#39;t the only thing she cares about. But, hey, what&#39;s wrong with dressing up your dream lover? As long as you have the money.</p>
+
+				<p style="text-align: center;">&nbsp;</p>
+
+				<p style="text-align: center;">&nbsp;</p>
+			</div>
+
+			<h4>CHARACTER SETTINGS</h4>
+
+			<ul class="settings">
+				<li>Birthday: December 21</li>
+				<li>Interests: Gardening, Handicrafts</li>
+				<li>Talents: Gardening, Repair Work</li>
+				<li>Likes: Canaries</li>
+			</ul>
+		</div>
+		<!-- END CHARACTER INFO -->
+	</div>
+</div>
