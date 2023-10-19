@@ -23,9 +23,9 @@
 				<br>
 			</h2>
 
-			<h2 class="roleName"><span style="font-size: 48px;">Gardener</span></h2>
+			<h2 class="roleName"><span style="font-size: 48px;">Role</span></h2>
 
-			<h5 class="alias">Name: Emma Woods</h5>
+			<h5 class="alias">Name: Character Name</h5>
 
 			<h5 class="career">
 				<br>
@@ -44,10 +44,10 @@
 			<h4>CHARACTER SETTINGS</h4>
 
 			<ul class="settings">
-				<li>Birthday: December 21</li>
-				<li>Interests: Gardening, Handicrafts</li>
-				<li>Talents: Gardening, Repair Work</li>
-				<li>Likes: Canaries</li>
+				<li>Birthday: Month, Day</li>
+				<li>Interests: Character Interests</li>
+				<li>Talents: Character Talents</li>
+				<li>Likes: Character Likes</li>
 			</ul>
 		</div>
 		<!-- END CHARACTER INFO -->
